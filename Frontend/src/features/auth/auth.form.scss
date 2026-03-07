@@ -1,0 +1,35 @@
+Main{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.form-container{
+    min-width: 350px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:0.75rem;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    input{
+        border:none;
+        outline: none;
+        padding-inline: 1rem; //horizontal padding 
+        padding-block:  0.75rem; // vertical padding
+        border-radius: 0.5rem;
+    }
+}
+
+a{
+    color : #e1034d;
+    text-decoration:none;
+}
