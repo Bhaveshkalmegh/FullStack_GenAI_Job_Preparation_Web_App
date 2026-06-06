@@ -51,7 +51,7 @@ const technicalQuestionSchema=new mongoose.Schema({
     _id:false, 
 })
 
-const behavioralQuestionSchema = new mongoose.Schema({
+const behaviroalQuestionSchema = new mongoose.Schema({
   
          question:{
             type:String,
@@ -122,7 +122,7 @@ const interviewReportSchema = new mongoose.Schema({
     },
 
     technicalQuestion:[technicalQuestionSchema],
-    behaviouralQuestion:[behavioralQuestionSchema],
+    behaviouralQuestion:[behaviroalQuestionSchema],
     skillGaps:[skillGapsSchema],
     preparationPlan:[preparationPlan]
 },{
